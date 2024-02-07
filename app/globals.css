@@ -14,17 +14,18 @@
       --popover-foreground: 240 10% 3.9%;
       --primary: 142.1 76.2% 36.3%;
       --primary-foreground: 355.7 100% 97.3%;
-      --secondary: 240 4.8% 95.9%;
-      --secondary-foreground: 240 5.9% 10%;
+      --secondary: 240 2% 50%;
+      --secondary-foreground: 300 0% 100%;
+      --tertiary: 27 82% 98%;
       --muted: 240 4.8% 95.9%;
       --muted-foreground: 240 3.8% 46.1%;
       --accent: 240 4.8% 95.9%;
       --accent-foreground: 240 5.9% 10%;
       --destructive: 0 84.2% 60.2%;
       --destructive-foreground: 0 0% 98%;
-      --border: 240 5.9% 90%;
-      --input: 240 5.9% 90%;
-      --ring: 142.1 76.2% 36.3%;
+      --border: 8 82% 92%;
+      --input: 8 82% 92%;
+      --ring: 9 99% 67%;
       --radius: 0.5rem;
     }
 
@@ -39,6 +40,7 @@
       --primary-foreground: 144.9 80.4% 10%;
       --secondary: 240 3.7% 15.9%;
       --secondary-foreground: 0 0% 98%;
+      --tertiary: 237 22% 20%;
       --muted: 0 0% 15%;
       --muted-foreground: 240 5% 64.9%;
       --accent: 12 6.5% 15.1%;
@@ -59,4 +61,16 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.h1 {
+  @apply text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold;
+}
+
+.subtitle {
+  @apply text-muted-foreground text-lg mb-8 font-light;
+}
+
+.badge {
+  @apply z-10 w-[200px] h-[68px] bg-white dark:backdrop-blur-[44px] shadow-2xl p-4 rounded-[10px] flex items-center gap-x-4;
 }

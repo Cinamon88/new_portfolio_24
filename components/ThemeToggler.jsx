@@ -11,7 +11,11 @@ const ThemeToggler = () => {
 
     return (
         <div>
-            <Button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
+            <Button 
+                onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+                variant='outline'
+                size='icon'
+            >
                 <SunIcon className="
                     h-[1.2rem] 
                     w-[1.2rem] 
