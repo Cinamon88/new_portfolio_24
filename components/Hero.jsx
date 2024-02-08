@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { RiArrowDownSLine, RiBriefcase4Fill } from 'react-icons/ri'
+import { RiArrowDownSLine, RiBriefcase4Fill, RiTeamFill, RiTodoFill } from 'react-icons/ri'
 import { Button } from './ui/button'
 import { Download, Send } from 'lucide-react'
 import Socials from './Socials'
@@ -27,7 +27,26 @@ const Hero = () => {
                     <Socials containerStyles='flex gap-x-6 mx-auto xl:mx-0' iconsStyles='text-foreground text-[22px] hover:text-primary transition-all' />
                 </div>
                 <div className='hidden xl:flex relative'>
-                    <Badge icon={<RiBriefcase4Fill />} />
+                    <Badge 
+                        containerStyles='absolute top-[24%] -left-[6rem]'
+                        icon={<RiBriefcase4Fill />} 
+                        endCountNum={2} 
+                        badgeText='Years Of Experience'
+                    />
+                    <Badge 
+                        containerStyles='absolute top-[87%] left-[3rem]'
+                        icon={<RiTodoFill />} 
+                        endCountNum={6} 
+                        // endCountText='k'
+                        badgeText='Individual Projects'
+                    />
+                    <Badge 
+                        containerStyles='absolute top-[55%] -right-4'
+                        icon={<RiTeamFill />} 
+                        endCountNum={1} 
+                        // endCountText='k'
+                        badgeText='Team Projects'
+                    />
                     <div className='bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2'></div>
                     <DevImg containerStyles='bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom' imgSrc='/hero/developer.png' />
                 </div>
