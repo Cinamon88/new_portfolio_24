@@ -22,7 +22,7 @@ const projectData = [
     {
         image: '/work/2.png',
         category: 'next js',
-        name: '',
+        name: 'Portfolio',
         description: 'Lorem ipsum',
         link: '/',
         github: '/',
@@ -71,8 +71,8 @@ const Work = () => {
             <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
                 <Swiper 
                     className="h-[480px]"
-                    slidesPerView={2}
-                    breakPoints={{
+                    slidesPerView={1}
+                    breakpoints={{
                         640: {
                             slidesPerView: 2,
                         },
