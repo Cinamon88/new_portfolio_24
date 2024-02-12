@@ -5,15 +5,15 @@ import { RiLinkedinFill, RiGithubFill, RiFacebookFill } from 'react-icons/ri'
 
 const icons = [
     {
-        path: '/',
+        path: 'https://www.linkedin.com/in/%C5%82ukasz-g%C3%B3rka-534697151/',
         name: <RiLinkedinFill />
     },
     {
-        path: '/',
+        path: 'https://github.com/Cinamon88',
         name: <RiGithubFill />
     },
     {
-        path: '/',
+        path: 'https://www.facebook.com/profile.php?id=61551858456248',
         name: <RiFacebookFill />
     },
 ]
