@@ -20,30 +20,32 @@ const Hero = () => {
                                 Contact me <Send size={18} />
                             </Button>
                         </Link>
-                        <Button variant="secondary" className="gap-x-2">
-                            Download CV <Download size={18} />
-                        </Button>
+                        <Link href="/cv_en.pdf" locale={false}>
+                            <Button variant="secondary" className="gap-x-2" >
+                                Download CV <Download size={18} />
+                            </Button>
+                        </Link>
                     </div>
                     <Socials containerStyles='flex gap-x-6 mx-auto xl:mx-0' iconsStyles='text-foreground text-[22px] hover:text-primary transition-all' />
                 </div>
                 <div className='hidden xl:flex relative'>
-                    <Badge 
+                    <Badge
                         containerStyles='absolute top-[24%] -left-[6rem]'
-                        icon={<RiBriefcase4Fill />} 
-                        endCountNum={2} 
+                        icon={<RiBriefcase4Fill />}
+                        endCountNum={2}
                         badgeText='Years Of Experience'
                     />
-                    <Badge 
+                    <Badge
                         containerStyles='absolute top-[87%] left-[3rem]'
-                        icon={<RiTodoFill />} 
-                        endCountNum={6} 
+                        icon={<RiTodoFill />}
+                        endCountNum={6}
                         // endCountText='k'
                         badgeText='Individual Projects'
                     />
-                    <Badge 
+                    <Badge
                         containerStyles='absolute top-[55%] -right-4'
-                        icon={<RiTeamFill />} 
-                        endCountNum={1} 
+                        icon={<RiTeamFill />}
+                        endCountNum={1}
                         // endCountText='k'
                         badgeText='Team Projects'
                     />
