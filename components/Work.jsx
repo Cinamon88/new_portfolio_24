@@ -13,44 +13,44 @@ import ProjectCard from "./ProjectCard";
 const projectData = [
     {
         image: '/work/1.png',
-        category: 'react js',
+        category: 'fullstack',
         name: 'E-Commerce Shop',
-        description: 'Lorem ipsum',
-        link: '/',
+        description: 'Fullstack official ecommerce shop where you can buy boxes :) TypeScript & NextJS 14 used. Connected with Stripe & MongoDB.',
+        link: 'https://www.ecopudelka.pl/',
         github: '/',
     },
     {
         image: '/work/2.png',
-        category: 'next js',
+        category: 'react js',
         name: 'Portfolio',
-        description: 'Lorem ipsum',
-        link: '/',
-        github: '/',
+        description: 'Personal Portfolio. Built with React & Vite. EmailJS connected.',
+        link: 'https://3dportfolio-liard.vercel.app/',
+        github: 'https://github.com/Cinamon88/my_portfolio',
     },
     {
         image: '/work/3.png',
-        category: 'react js',
-        name: '',
-        description: 'Lorem ipsum',
-        link: '/',
-        github: '/',
+        category: 'team projects',
+        name: 'Furniture Shop',
+        description: 'This team project is a furniture store website, in accordance with the guidelines from the client. Used React, Redux and Bootstrap.',
+        link: 'https://furnitureshop.cinamon88.repl.co',
+        github: 'https://github.com/Cinamon88/FurnitureShop',
     },
     {
         image: '/work/4.png',
         category: 'next js',
-        name: '',
-        description: 'Lorem ipsum',
-        link: '/',
+        name: 'Online Shop',
+        description: 'Online shop where you can buy boxes :) React & NextJS 12 used. Connected with Stripe & Sanity.',
+        link: 'https://ecopudelka-ecommerce.vercel.app/',
         github: '/',
     },
-    {
-        image: '/work/3.png',
-        category: 'fullstack',
-        name: '',
-        description: 'Lorem ipsum',
-        link: '/',
-        github: '/',
-    },
+    // {
+    //     image: '/work/3.png',
+    //     category: 'fullstack',
+    //     name: '',
+    //     description: 'Lorem ipsum',
+    //     link: '/',
+    //     github: '/',
+    // },
 ]
 
 const Work = () => {
@@ -70,7 +70,7 @@ const Work = () => {
             </div>
             <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
                 <Swiper 
-                    className="h-[480px]"
+                    className="h-[560px] md:h-[500px]"
                     slidesPerView={1}
                     breakpoints={{
                         640: {

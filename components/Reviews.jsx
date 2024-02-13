@@ -52,7 +52,8 @@ const Reviews = () => {
     <section className="relative mt-20 mb-12 xl:mb-48">
         <div className="container mx-auto">
             <h2 className="section-title mb-12 text-center mx-auto">Reviews</h2>
-            <Swiper
+            <h2 className="h4 text-center mb-10 md:mb-20">No reviews yet :)</h2>
+            {/* <Swiper
                 className="h-[350px]"
                 slidesPerView={1}
                 breakpoints={{
@@ -98,7 +99,7 @@ const Reviews = () => {
                         </SwiperSlide>
                     )
                     })}
-            </Swiper>
+            </Swiper> */}
         </div>
     </section>
   )

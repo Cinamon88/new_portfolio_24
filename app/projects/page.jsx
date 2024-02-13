@@ -7,44 +7,44 @@ import { useState } from "react";
 const projectData = [
   {
       image: '/work/1.png',
-      category: 'react js',
+      category: 'fullstack',
       name: 'E-Commerce Shop',
-      description: 'Lorem ipsum',
-      link: '/',
+      description: 'Fullstack official ecommerce shop where you can buy boxes :) TypeScript & NextJS 14 used. Connected with Stripe & MongoDB.',
+      link: 'https://www.ecopudelka.pl/',
       github: '/',
   },
   {
       image: '/work/2.png',
-      category: 'next js',
+      category: 'react js',
       name: 'Portfolio',
-      description: 'Lorem ipsum',
-      link: '/',
-      github: '/',
+      description: 'Personal Portfolio. Built with React & Vite. EmailJS connected.',
+      link: 'https://3dportfolio-liard.vercel.app/',
+      github: 'https://github.com/Cinamon88/my_portfolio',
   },
   {
       image: '/work/3.png',
-      category: 'react js',
-      name: '',
-      description: 'Lorem ipsum',
-      link: '/',
-      github: '/',
+      category: 'team projects',
+      name: 'Furniture Shop',
+      description: 'This team project is a furniture store website, in accordance with the guidelines from the client. Used React, Redux and Bootstrap.',
+      link: 'https://furnitureshop.cinamon88.repl.co',
+      github: 'https://github.com/Cinamon88/FurnitureShop',
   },
   {
       image: '/work/4.png',
       category: 'next js',
-      name: '',
-      description: 'Lorem ipsum',
-      link: '/',
+      name: 'Online Shop',
+      description: 'Online shop where you can buy boxes :) React & NextJS 12 used. Connected with Stripe & Sanity.',
+      link: 'https://ecopudelka-ecommerce.vercel.app/',
       github: '/',
   },
-  {
-      image: '/work/3.png',
-      category: 'fullstack',
-      name: '',
-      description: 'Lorem ipsum',
-      link: '/',
-      github: '/',
-  },
+  // {
+  //     image: '/work/3.png',
+  //     category: 'fullstack',
+  //     name: '',
+  //     description: 'Lorem ipsum',
+  //     link: '/',
+  //     github: '/',
+  // },
 ]
 
 const uniqueCategories = ['all projects', ...new Set(projectData.map((item) => item.category))];
@@ -65,7 +65,7 @@ const Projects = () => {
       <div className="container mx-auto">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">My Projects</h2>
         <Tabs defaultValue={category} className="mb-24 xl:mb-48">
-          <TabsList className="w-full grid h-full md:grid-cols-4 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
+          <TabsList className="w-full grid h-full md:grid-cols-5 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
             {categories.map((category, index) => {
               return (
                 <TabsTrigger 
