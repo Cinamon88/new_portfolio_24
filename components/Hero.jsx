@@ -22,7 +22,12 @@ const Hero = () => {
                         </Link>
                         <Link href="/cv_en.pdf" locale={false}>
                             <Button variant="secondary" className="gap-x-2" >
-                                Download CV <Download size={18} />
+                                Download CV EN <Download size={18} />
+                            </Button>
+                        </Link>
+                        <Link href="/cv_pl.pdf" locale={false}>
+                            <Button variant="secondary" className="gap-x-2" >
+                                Download CV PL <Download size={18} />
                             </Button>
                         </Link>
                     </div>

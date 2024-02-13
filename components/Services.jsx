@@ -6,17 +6,17 @@ const servicesData = [
     {
         icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
         title: 'Web Design',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate placeat quam, accusamus perspiciatis obcaecati atque dolorem illum provident corporis culpa voluptatem consequatur omnis architecto laboriosam aut rem reiciendis rerum at.'
+        description: 'Professional web design focuses on creating a seamless and enjoyable user experience. This includes easy navigation, clear call-to-action buttons, and visually appealing layouts.'
     },
     {
         icon: <Blocks size={72} strokeWidth={0.8} />,
         title: 'Web Development',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate placeat quam, accusamus perspiciatis obcaecati atque dolorem illum provident corporis culpa voluptatem consequatur omnis architecto laboriosam aut rem reiciendis rerum at.'
+        description: 'With web development, the possibilities are endless. You can create websites, web applications, e-commerce platforms, and more, tailored to specific needs and preferences.'
     },
     {
         icon: <Gem size={72} strokeWidth={0.8} />,
         title: 'Content Creator',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate placeat quam, accusamus perspiciatis obcaecati atque dolorem illum provident corporis culpa voluptatem consequatur omnis architecto laboriosam aut rem reiciendis rerum at.'
+        description: 'Successful content creators can turn others passion into a source of income through sponsorships, brand collaborations, or ad revenue.'
     },
     
 ]
