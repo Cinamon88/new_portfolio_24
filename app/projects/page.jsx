@@ -17,7 +17,7 @@ const projectData = [
       image: '/work/2.png',
       category: 'react js',
       name: 'Portfolio',
-      description: 'Personal Portfolio. Built with React & Vite. EmailJS connected.',
+      description: 'Personal Portfolio with cool 3d animations. Built with React & Vite. EmailJS connected.',
       link: 'https://3dportfolio-liard.vercel.app/',
       github: 'https://github.com/Cinamon88/my_portfolio',
   },
