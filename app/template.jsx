@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 //hooks
-import useScrollProgress from "@/hooks/useScrollProgress";
+import useScrollProgress from "../hooks/useScrollProgress";
 
 // variants
 const variants = {

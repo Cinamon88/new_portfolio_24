@@ -1,4 +1,4 @@
-import Form from "@/components/Form"
+import Form from "../../components/Form"
 import { MailIcon, PhoneCall } from "lucide-react"
 import Link from "next/link"
 import { RiWhatsappLine } from "react-icons/ri"

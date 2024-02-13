@@ -16,9 +16,9 @@ export async function POST(request: { json: () => any; }) {
       react: EmailTemplate({ firstName: name }),
     });
 
-    if(data.status === 'succcess') {
-        return NextResponse.json({ message: 'Successfull'})
-    }
+    // if(data.status === 'succcess') {
+    //     return NextResponse.json({ message: 'Successfull'})
+    // }
 
     return NextResponse.json(data);
   } catch (error) {
