@@ -11,7 +11,7 @@ const servicesData = [
     {
         icon: <Blocks size={72} strokeWidth={0.8} />,
         title: 'Web Development',
-        description: 'With web development, the possibilities are endless. You can create websites, web applications, e-commerce platforms, and more, tailored to specific needs and preferences.'
+        description: 'With web development, the possibilities are endless. Create websites, web applications, e-commerce platforms, and more, tailored to specific needs and preferences.'
     },
     {
         icon: <Gem size={72} strokeWidth={0.8} />,

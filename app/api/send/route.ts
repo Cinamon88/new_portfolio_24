@@ -1,6 +1,6 @@
-import { NextResponse } from 'next/server';
 import { EmailTemplate } from '../../../components/email-template';
 import { Resend } from 'resend';
+import { NextResponse } from 'next/server';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -8,20 +8,19 @@ export async function POST(request) {
   try {
     const body = await request.json();
     const { email, name, message } = body;
-    const data = await resend.emails.send({
-      from: 'Lukasz <contact@lukasz-gorka.com>',
+    const { data, error } = await resend.emails.send({
+      from: 'Acme <onboarding@lukasz-gorka.com>',
       to: email,
-      subject: 'Hello world',
-      
+      subject: "Hello world",
       react: EmailTemplate({ firstName: name }),
     });
 
-    // if(data.status === 'succcess') {
-    //     return NextResponse.json({ message: 'Successfull'})
-    // }
+    if (error) {
+      return NextResponse.json({ error });
+    }
 
-    return NextResponse.json(data);
+    return NextResponse.json({ data });
   } catch (error) {
-    console.log('error', error);
+    return NextResponse.json({ error });
   }
 }
