@@ -1,7 +1,7 @@
 'use client'
 
-import ProjectCard from "../../components/ProjectCard";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../components/ui/tabs";
+import ProjectCard from "../components/ProjectCard";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs";
 import { useState } from "react";
 
 const projectData = [
