@@ -1,0 +1,103 @@
+{
+    "Nav": {
+      "home": "Home",
+      "my_projects": "Moje projekty",
+      "contact": "Kontakt"
+    },
+
+    "Hero": {
+      "subtitle": "Web Developer",
+      "heading": "Witaj, mam na imię Łukasz",
+      "desc": "Krótki opis zawierający spostrzeżenia na temat mnie, mojej podróży i tego, czym się zajmuję zawodowo.",
+      "button1": "Skontaktuj się",
+      "button2": "Pobierz CV EN",
+      "button3": "Pobierz CV PL",
+      "badge1": "Lata Doświadczenia",
+      "badge2": "Projekt Indywidualny",
+      "badge3": "Projekt zespołowy"
+    },
+
+    "About": {
+      "subheading": "O mnie",
+      "tab1": "Osobiste",
+      "tab2": "Kwalifikacje",
+      "tab3": "Umiejętności",
+      "personal": "Niezrównana jakość usług",
+      "personal-desc": "Specjalizuję się w tworzeniu intuicyjnych stron internetowych z wykorzystaniem najnowocześniejszych technologii takich jak NextJS. Ściśle współpracuję z klientami, aby tworzyć wydajne, skalowalne i przyjazne dla użytkownika rozwiązania. Skontaktuj się, aby wcielić Twoje pomysły w życie!",
+      "experience": "Doświadczenie",
+      "experience-sub": "Moja podróż",
+      "education": "Wykształcenie",
+      "language-skill": "Języki",
+      "language": "Polski, Angielski B2/C1",
+      "skills-sub": "Czego Używam Na Co Dzień",
+      "skills": "Umiejętności",
+      "tools": "Narzędzia",
+      "born": "Urodzony w 1988",
+      "country": "Polska",
+      "company": "Własna działalność",
+      "year_company": "2023 - obecnie",
+      "university1": "Kodilla Szkoła Online",
+      "qualification1": "Full Stack Developer +",
+      "years1": "2022 - 2023",
+      "university2": "Wyższa Szkoła Handlu i Usług",
+      "qualification2": "Licencjat Marketing",
+      "years2": "2009 - 2012"
+    },
+
+    "MyServices": {
+      "subheading": "Moje Usługi",
+      "services1": "Profesjonalne projektowanie stron internetowych koncentruje się na tworzeniu płynnego i przyjemnego doświadczenia dla użytkownika. Obejmuje to łatwą nawigację, przejrzyste przyciski i atrakcyjne wizualnie układy.",
+      "services2": "Dzięki web development możliwości są nieograniczone. Strony internetowe, aplikacje internetowe, platformy e-commerce i nie tylko, dostosowane do konkretnych potrzeb i preferencji.",
+      "services3": "Tworzenie treści to wprowadzanie informacji do wszelkich mediów, a zwłaszcza do mediów cyfrowych. Treść może przybierać formę tekstu, grafiki, filmów i w wielu przypadkach dźwięku. "
+    },
+
+    "Work": {
+      "subheading": "Ostatnie Projekty",
+      "desc": "Poniższe projekty prezentują moje umiejętności i doświadczenie na przykładach mojej pracy. Każdy projekt jest krótko opisany wraz z linkami do repozytoriów i demonstracji na żywo. Odzwierciedla moją umiejętność rozwiązywania złożonych problemów, pracy z różnymi technologiami i efektywnego zarządzania projektami.",
+      "button": "Wszystkie projekty",
+      "project_name1": "Sklep E-Commerce",
+      "project_desc1": "Oficjalny sklep e-commerce, w którym można kupić pudełka :) Wykorzystano TypeScript i NextJS 14. Połączony ze Stripe i MongoDB.",
+      "project_name2": "Portfolio",
+      "project_desc2": "Portfolio osobiste z fajnymi animacjami 3D. Zbudowany w React & Vite. Połączono z pocztą e-mailJS.",
+      "project_name3": "Sklep meblowy",
+      "project_desc3": "Ten zespołowy projekt to strona sklepu meblowego, zgodna z wytycznymi Klienta. Użyto React, Redux i Bootstrap.",
+      "project_name4": "Sklep Online",
+      "project_desc4": "Sklep internetowy w którym można kupić pudełka :) Użyto React & NextJS 12. Połączony ze Stripe & Sanity."
+    },
+
+    "Reviews": {
+      "subheading": "Opinie",
+      "desc": "Nie ma jeszcze opinii :)"
+    },
+
+    "Cta": {
+      "subheading": "Gotowy na przekształcenie swoich pomysłów w rzeczywistość? Jestem tu by pomóc.",
+      "button": "Skontaktuj się"
+    },
+
+    "MyProjects": {
+      "subheading": "Moje Projekty",
+      "button1": "Wszystkie Projekty",
+      "button3": "Projekty Zespołowe",
+      "project_name1": "Sklep E-Commerce",
+      "project_desc1": "Oficjalny sklep e-commerce, w którym można kupić pudełka :) Wykorzystano TypeScript i NextJS 14. Połączony ze Stripe i MongoDB.",
+      "project_name2": "Portfolio",
+      "project_desc2": "Portfolio osobiste z fajnymi animacjami 3D. Zbudowany w React & Vite. Połączono z pocztą e-mailJS.",
+      "project_name3": "Sklep meblowy",
+      "project_desc3": "Ten zespołowy projekt to strona sklepu meblowego, zgodna z wytycznymi Klienta. Użyto React, Redux i Bootstrap.",
+      "project_name4": "Sklep Online",
+      "project_desc4": "Sklep internetowy w którym można kupić pudełka :) Użyto React & NextJS 12. Połączony ze Stripe & Sanity.",
+      "category": "Wszystkie Projekty",
+      "category_tm": "Projekty Zespołowe"
+    
+    },
+
+    "Contact": {
+      "subheading": "Współpracujmy razem.",
+      "desc": "Ożywmy Twoje pomysły.",
+      "form_name": "Imię",
+      "form_message": "Twoja Wiadomość",
+      "button": "Porozmawiajmy",
+      "toast": "Wiadomość została wysłana."
+    }
+}

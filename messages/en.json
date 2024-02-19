@@ -1,0 +1,103 @@
+{
+    "Nav": {
+      "home": "Home",
+      "my_projects": "My Projects",
+      "contact": "Contact"
+    },
+  
+    "Hero": {
+      "subtitle": "Web Developer",
+      "heading": "Hello, my name is Lucas",
+      "desc": "Brief description with insights into myself, my journey, and what I engage in professionally.",
+      "button1": "Contact me",
+      "button2": "Download CV EN",
+      "button3": "Download CV PL",
+      "badge1": "Years Of Experience",
+      "badge2": "Individual Projects",
+      "badge3": "Team Projects"
+    },
+
+    "About": {
+      "subheading": "About me",
+      "tab1": "Personal Info",
+      "tab2": "Qualification",
+      "tab3": "Skills",
+      "personal": "Unmatched Service Quality",
+      "personal-desc": "I specialize in crafting intuitive websites with cutting-edge technology like NextJS. I collaborate closely with clients to create efficient, scalable, and user-friendly solutions. Let's work together to bring your ideas to life!",
+      "experience": "Experience",
+      "experience-sub": "My Journey",
+      "education": "Education",
+      "language-skill": "Language Skill",
+      "language": "Polish Native, English B2/C1",
+      "skills-sub": "What I Use Everyday",
+      "skills": "Skills",
+      "tools": "Tools",
+      "born": "Born in 1988",
+      "country": "Poland",
+      "company": "Own Business",
+      "year_company": "2023 - until now",
+      "university1": "Kodilla Online School",
+      "qualification1": "Full Stack Developer +",
+      "years1": "2022 - 2023",
+      "university2": "University of Economics",
+      "qualification2": "Bachelor of Marketing",
+      "years2": "2009 - 2012"
+    },
+
+    "MyServices": {
+      "subheading": "My Services",
+      "services1": "Professional web design focuses on creating a seamless and enjoyable user experience. This includes easy navigation, clear call-to-action buttons, and visually appealing layouts.",
+      "services2": "With web development, the possibilities are endless. Create websites, web applications, e-commerce platforms, and more, tailored to specific needs and preferences.",
+      "services3": "Content creation is the contribution of information to any media and most especially to digital media. Content can take up the form of text, graphics, videos and in many cases audio."
+    },
+
+    "Work": {
+      "subheading": "Latest Projects",
+      "desc": "Following projects showcases my skills and experience through examples of my work. Each project is briefly described with links to code repositories and live demos. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+      "button": "All Projects",
+      "project_name1": "E-Commerce Shop",
+      "project_desc1": "Fullstack official ecommerce shop where you can buy boxes :) TypeScript & NextJS 14 used. Connected with Stripe & MongoDB.",
+      "project_name2": "Portfolio",
+      "project_desc2": "Personal Portfolio with cool 3d animations. Built with React & Vite. EmailJS connected.",
+      "project_name3": "Furniture Shop",
+      "project_desc3": "This team project is a furniture store website, in accordance with the guidelines from the client. Used React, Redux and Bootstrap.",
+      "project_name4": "Online Shop",
+      "project_desc4": "Online shop where you can buy boxes :) React & NextJS 12 used. Connected with Stripe & Sanity."
+    },
+
+    "Reviews": {
+      "subheading": "Reviews",
+      "desc": "No reviews yet :)"
+    },
+
+    "Cta": {
+      "subheading": "Prepared to turn your ideas into reality? I'm here to help.",
+      "button": "Contact me"
+    },
+
+    "MyProjects": {
+      "subheading": "My Projects",
+      "button1": "All Projects",
+      "button3": "Team Projects",
+      "project_name1": "E-Commerce Shop",
+      "project_desc1": "Fullstack official ecommerce shop where you can buy boxes :) TypeScript & NextJS 14 used. Connected with Stripe & MongoDB.",
+      "project_name2": "Portfolio",
+      "project_desc2": "Personal Portfolio with cool 3d animations. Built with React & Vite. EmailJS connected.",
+      "project_name3": "Furniture Shop",
+      "project_desc3": "This team project is a furniture store website, in accordance with the guidelines from the client. Used React, Redux and Bootstrap.",
+      "project_name4": "Online Shop",
+      "project_desc4": "Online shop where you can buy boxes :) React & NextJS 12 used. Connected with Stripe & Sanity.",
+      "category": "All Projects",
+      "category_tm": "Team Projects"
+    },
+
+    "Contact": {
+      "subheading": "Let's Work Together.",
+      "desc": "Bring your ideas to life.",
+      "form_name": "Name",
+      "form_message": "Your Message Here.",
+      "button": "Let's Talk",
+      "toast": "Your message was sent successfully"
+    }
+    
+}
