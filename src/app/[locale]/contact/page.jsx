@@ -17,7 +17,7 @@ const Contact = () => {
               <span className="w-[30px] h-[2px] bg-primary"></span>
               Say Hello 👋
             </div>
-            <h1 className="h1 max-w-md mb-8">{t('subheading')}</h1>
+            <h1 className="h2 max-w-md mb-8">{t('subheading')}</h1>
             <p className="subtitle max-w-[400px]">{t('desc')}</p>
           </div>
           {/* illustrations */}
