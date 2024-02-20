@@ -44,9 +44,9 @@ const Services = () => {
                             </Card>
                         )
                     })} */}
-                    <Card className="w-full max-w-[424px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative">
+                    <Card className="w-full max-w-[424px] h-[300px] flex flex-col pt-10 pb-10 justify-center items-center relative">
                         <CardHeader className="text-primary absolute -top-[60px]">
-                            <div className="w-[140px] h-[80px] bg-white dark:bg-background flex justify-center items-center"><GanttChartSquare size={72} strokeWidth={0.8} /></div>
+                            <div className="w-[120px] h-[60px] bg-white dark:bg-background flex justify-center items-center"><GanttChartSquare size={72} strokeWidth={0.8} /></div>
                         </CardHeader>
                         <CardContent className="text-center">
                             <CardTitle className="mt-6 md:mt-0 mb-4">Web Design</CardTitle>
@@ -55,9 +55,9 @@ const Services = () => {
                             </CardDescription>
                         </CardContent>
                     </Card>
-                    <Card className="w-full max-w-[424px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative">
+                    <Card className="w-full max-w-[424px] h-[300px] flex flex-col pt-10 pb-10 justify-center items-center relative">
                         <CardHeader className="text-primary absolute -top-[60px]">
-                            <div className="w-[140px] h-[80px] bg-white dark:bg-background flex justify-center items-center"><Blocks size={72} strokeWidth={0.8} /></div>
+                            <div className="w-[120px] h-[60px] bg-white dark:bg-background flex justify-center items-center"><Blocks size={72} strokeWidth={0.8} /></div>
                         </CardHeader>
                         <CardContent className="text-center">
                             <CardTitle className="mt-6 md:mt-0 mb-4">Web Development</CardTitle>
@@ -66,9 +66,9 @@ const Services = () => {
                             </CardDescription>
                         </CardContent>
                     </Card>
-                    <Card className="w-full max-w-[424px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative">
+                    <Card className="w-full max-w-[424px] h-[300px] flex flex-col pt-10 pb-10 justify-center items-center relative">
                         <CardHeader className="text-primary absolute -top-[60px]">
-                            <div className="w-[140px] h-[80px] bg-white dark:bg-background flex justify-center items-center"><Gem size={72} strokeWidth={0.8} /></div>
+                            <div className="w-[120px] h-[60px] bg-white dark:bg-background flex justify-center items-center"><Gem size={72} strokeWidth={0.8} /></div>
                         </CardHeader>
                         <CardContent className="text-center">
                             <CardTitle className="mt-6 md:mt-0 mb-4">Content Creator</CardTitle>
