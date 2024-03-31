@@ -5,7 +5,7 @@ export default createMiddleware({
   locales: ['en', 'pl'],
 
   // Used when no locale matches
-  defaultLocale: 'en',
+  defaultLocale: 'pl',
   pathnames: {
     '/contact': {
       en: '/contact',
