@@ -62,7 +62,9 @@
       "project_name3": "Sklep meblowy",
       "project_desc3": "Ten zespołowy projekt to strona sklepu meblowego, zgodna z wytycznymi Klienta. Użyto React, Redux i Bootstrap.",
       "project_name4": "Sklep Online",
-      "project_desc4": "Sklep internetowy w którym można kupić pudełka :) Użyto React & NextJS 12. Połączony ze Stripe & Sanity."
+      "project_desc4": "Sklep internetowy w którym można kupić pudełka :) Użyto React & NextJS 12. Połączony ze Stripe & Sanity.",
+      "project_name5": "Sklep Odzieżowy",
+      "project_desc5": "Oficjalny sklep odzieżowy z panelem admina. Wykorzystano TypeScript, NextJS 14.01, PostgreSQL oraz TailwindCSS. Połączony ze Stripe i MongoDB."
     },
 
     "Reviews": {
@@ -87,6 +89,8 @@
       "project_desc3": "Ten zespołowy projekt to strona sklepu meblowego, zgodna z wytycznymi Klienta. Użyto React, Redux i Bootstrap.",
       "project_name4": "Sklep Online",
       "project_desc4": "Sklep internetowy w którym można kupić pudełka :) Użyto React & NextJS 12. Połączony ze Stripe & Sanity.",
+      "project_name5": "Sklep Odzieżowy",
+      "project_desc5": "Oficjalny sklep odzieżowy z panelem admina. Wykorzystano TypeScript, NextJS 14.01, PostgreSQL oraz TailwindCSS. Połączony ze Stripe i MongoDB.",
       "category": "Wszystkie Projekty",
       "category_tm": "Projekty Zespołowe"
     

@@ -18,6 +18,14 @@ const Work = () => {
 
     const projectData = [
         {
+            image: '/work/5.png',
+            category: 'fullstack',
+            name: `${t('project_name5')}`,
+            description: `${t('project_desc5')}`,
+            link: 'https://www.bwearing.pl/',
+            github: '/',
+        },
+        {
             image: '/work/1.png',
             category: 'fullstack',
             name: `${t('project_name1')}`,

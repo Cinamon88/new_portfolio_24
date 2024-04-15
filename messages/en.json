@@ -62,7 +62,9 @@
       "project_name3": "Furniture Shop",
       "project_desc3": "This team project is a furniture store website, in accordance with the guidelines from the client. Used React, Redux and Bootstrap.",
       "project_name4": "Online Shop",
-      "project_desc4": "Online shop where you can buy boxes :) React & NextJS 12 used. Connected with Stripe & Sanity."
+      "project_desc4": "Online shop where you can buy boxes :) React & NextJS 12 used. Connected with Stripe & Sanity.",
+      "project_name5": "Clothing Shop",
+      "project_desc5": "Official clothing shop with admin panel. TypeScript, NextJS 14.01, PostgreSQL and TailwindCSS used. Connected to Stripe and MongoDB."
     },
 
     "Reviews": {
@@ -87,6 +89,8 @@
       "project_desc3": "This team project is a furniture store website, in accordance with the guidelines from the client. Used React, Redux and Bootstrap.",
       "project_name4": "Online Shop",
       "project_desc4": "Online shop where you can buy boxes :) React & NextJS 12 used. Connected with Stripe & Sanity.",
+      "project_name5": "Clothing Shop",
+      "project_desc5": "Official clothing shop with admin panel. TypeScript, NextJS 14.01, PostgreSQL and TailwindCSS used. Connected to Stripe and MongoDB.",
       "category": "All Projects",
       "category_tm": "Team Projects"
     },
