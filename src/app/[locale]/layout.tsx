@@ -15,7 +15,7 @@ const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Portfolio | Lucas",
-  description: "My portfolio || TypeScript | React | NextJS | Stripe | MongoDB",
+  description: "My portfolio || TypeScript | React | NextJS | Stripe | MongoDB | Wordpress",
 };
 interface RootLayoutProps {
   children: React.ReactNode;
