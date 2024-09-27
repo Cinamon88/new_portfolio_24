@@ -15,8 +15,48 @@ const Projects = () => {
 
   const projectData = [
     {
+      image: "/work/owl.png",
+      category: "wordpress",
+      name: `${t("project_name6")}`,
+      description: `${t("project_desc6")}`,
+      link: "https://owlrightkids.com/",
+      github: '/',
+    },
+    {
+      image: "/work/mad.png",
+      category: "wordpress",
+      name: `${t("project_name7")}`,
+      description: `${t("project_desc7")}`,
+      link: "https://mademoiselledorota.com/",
+      github: '/',
+    },
+    {
+      image: "/work/pogotowie.png",
+      category: "wordpress",
+      name: `${t("project_name8")}`,
+      description: `${t("project_desc8")}`,
+      link: "https://pogotowietechniczne.eu/",
+      github: '/',
+    },
+    {
+      image: "/work/chemlogika.png",
+      category: "wordpress",
+      name: `${t("project_name9")}`,
+      description: `${t("project_desc9")}`,
+      link: "https://chemlogika.pl/",
+      github: '/',
+    },
+    {
+      image: "/work/jjr.png",
+      category: "wordpress",
+      name: `${t("project_name10")}`,
+      description: `${t("project_desc10")}`,
+      link: "https://jjrwindowsandgutters.co.uk/",
+      github: '/',
+    },
+    {
       image: "/work/5.png",
-      category: "fullstack", 
+      category: "fullstack",
       name: `${t("project_name5")}`,
       description: `${t("project_desc5")}`,
       link: "https://www.bwearing.pl/",
@@ -40,7 +80,7 @@ const Projects = () => {
     },
     {
       image: "/work/3.png",
-      category: `${t("category_tm")}`,
+      category: `fullstack`,
       name: `${t("project_name3")}`,
       description: `${t("project_desc3")}`,
       link: "https://furnitureshop.cinamon88.repl.co",
@@ -53,47 +93,7 @@ const Projects = () => {
       description: `${t("project_desc4")}`,
       link: "https://ecopudelka-ecommerce.vercel.app/",
       github: "/",
-    },
-    {
-      image: '/work/owl.png',
-      category: 'wordpress',
-      name: 'OwlRight Kids',
-      description: 'Przyjemna nauka angielskiego dla dzieci',
-      link: 'https://owlrightkids.com/',
-      // github: '/',
-  },
-  {
-      image: '/work/mad.png',
-      category: 'wordpress',
-      name: 'Mademoiselle Dorota',
-      description: 'As a Paris-based style coach, sketch artist, and jewelry designer I live, breathe, and sleep fashion!',
-      link: 'https://mademoiselledorota.com/',
-      // github: '/',
-  },
-  {
-      image: '/work/pogotowie.png',
-      category: 'wordpress',
-      name: 'Pogotowie Techniczne 24H',
-      description: 'Jesteśmy liderem w kompleksowej obsłudze technicznej nieruchomości, działając na rynku od 14 lat.',
-      link: 'https://pogotowietechniczne.eu/',
-      // github: '/',
-  },
-  {
-      image: '/work/chemlogika.png',
-      category: 'wordpress',
-      name: 'Chemlogika',
-      description: 'Najprzyjemniejszy kurs maturalny z Chemii!',
-      link: 'https://chemlogika.pl/',
-      // github: '/',
-  },
-  {
-      image: '/work/jjr.png',
-      category: 'wordpress',
-      name: 'JJR Window Cleaner',
-      description: 'Your friendly, local window cleaning specialist.',
-      link: 'https://jjrwindowsandgutters.co.uk/',
-      // github: '/',
-  },
+    }
   ];
 
   const uniqueCategories = [

@@ -64,7 +64,17 @@
       "project_name4": "Online Shop",
       "project_desc4": "Online shop where you can buy boxes :) React & NextJS 12 used. Connected with Stripe & Sanity.",
       "project_name5": "Clothing Shop",
-      "project_desc5": "Official clothing shop with admin panel. TypeScript, NextJS 14.01, PostgreSQL and TailwindCSS used. Connected to Stripe and MongoDB."
+      "project_desc5": "Official clothing shop with admin panel. TypeScript, NextJS 14.01, PostgreSQL and TailwindCSS used. Connected to Stripe and MongoDB.",
+      "project_name6": "OwlRight Kids",
+      "project_desc6": "Pleasant learning of English for children",
+      "project_name7": "Mademoiselle Dorota",
+      "project_desc7": "As a Paris-based style coach, sketch artist, and jewelry designer I live, breathe, and sleep fashion!",
+      "project_name8": "Pogotowie Techniczne 24H",
+      "project_desc8": "We are a leader in comprehensive property technical services, operating in the market for 14 years.",
+      "project_name9": "Chemlogika",
+      "project_desc9": "The most enjoyable high school chemistry course!",
+      "project_name10": "JJR Window Cleaner",
+      "project_desc10": "Your friendly, local window cleaning specialist."
     },
 
     "Reviews": {
@@ -92,6 +102,16 @@
       "project_desc4": "Online shop where you can buy boxes :) React & NextJS 12 used. Connected with Stripe & Sanity.",
       "project_name5": "Clothing Shop",
       "project_desc5": "Official clothing shop with admin panel. TypeScript, NextJS 14.01, PostgreSQL and TailwindCSS used. Connected to Stripe and MongoDB.",
+      "project_name6": "OwlRight Kids",
+      "project_desc6": "Pleasant learning of English for children",
+      "project_name7": "Mademoiselle Dorota",
+      "project_desc7": "As a Paris-based style coach, sketch artist, and jewelry designer I live, breathe, and sleep fashion!",
+      "project_name8": "Pogotowie Techniczne 24H",
+      "project_desc8": "We are a leader in comprehensive property technical services, operating in the market for 14 years.",
+      "project_name9": "Chemlogika",
+      "project_desc9": "The most enjoyable high school chemistry course!",
+      "project_name10": "JJR Window Cleaner",
+      "project_desc10": "Your friendly, local window cleaning specialist.",
       "category": "All Projects",
       "category_tm": "Team Projects"
     },

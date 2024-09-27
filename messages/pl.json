@@ -64,7 +64,17 @@
       "project_name4": "Sklep Online",
       "project_desc4": "Sklep internetowy w którym można kupić pudełka :) Użyto React & NextJS 12. Połączony ze Stripe & Sanity.",
       "project_name5": "Sklep Odzieżowy",
-      "project_desc5": "Oficjalny sklep odzieżowy z panelem admina. Wykorzystano TypeScript, NextJS 14.01, PostgreSQL oraz TailwindCSS. Połączony ze Stripe i MongoDB."
+      "project_desc5": "Oficjalny sklep odzieżowy z panelem admina. Wykorzystano TypeScript, NextJS 14.01, PostgreSQL oraz TailwindCSS. Połączony ze Stripe i MongoDB.",
+      "project_name6": "OwlRight Kids",
+      "project_desc6": "Przyjemna nauka angielskiego dla dzieci",
+      "project_name7": "Mademoiselle Dorota",
+      "project_desc7": "Jako stylista, artysta szkiców i projektant biżuterii z siedzibą w Paryżu, żyję, oddycham i śpię modą!",
+      "project_name8": "Pogotowie Techniczne 24H",
+      "project_desc8": "Jesteśmy liderem w kompleksowej obsłudze technicznej nieruchomości, działając na rynku od 14 lat.",
+      "project_name9": "Chemlogika",
+      "project_desc9": "Najprzyjemniejszy kurs maturalny z Chemii!",
+      "project_name10": "JJR Window Cleaner",
+      "project_desc10": "Twój przyjazny, lokalny specjalista od mycia okien."
     },
 
     "Reviews": {
@@ -92,6 +102,16 @@
       "project_desc4": "Sklep internetowy w którym można kupić pudełka :) Użyto React & NextJS 12. Połączony ze Stripe & Sanity.",
       "project_name5": "Sklep Odzieżowy",
       "project_desc5": "Oficjalny sklep odzieżowy z panelem admina. Wykorzystano TypeScript, NextJS 14.01, PostgreSQL oraz TailwindCSS. Połączony ze Stripe i MongoDB.",
+      "project_name6": "OwlRight Kids",
+      "project_desc6": "Przyjemna nauka angielskiego dla dzieci",
+      "project_name7": "Mademoiselle Dorota",
+      "project_desc7": "Jako stylista, artysta szkiców i projektant biżuterii z siedzibą w Paryżu, żyję, oddycham i śpię modą!",
+      "project_name8": "Pogotowie Techniczne 24H",
+      "project_desc8": "Jesteśmy liderem w kompleksowej obsłudze technicznej nieruchomości, działając na rynku od 14 lat.",
+      "project_name9": "Chemlogika",
+      "project_desc9": "Najprzyjemniejszy kurs maturalny z Chemii!",
+      "project_name10": "JJR Window Cleaner",
+      "project_desc10": "Twój przyjazny, lokalny specjalista od mycia okien.",
       "category": "Wszystkie Projekty",
       "category_tm": "Projekty Zespołowe"
     
