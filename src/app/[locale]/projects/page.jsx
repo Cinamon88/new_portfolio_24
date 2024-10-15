@@ -67,7 +67,7 @@ const Projects = () => {
       category: "fullstack",
       name: `${t("project_name1")}`,
       description: `${t("project_desc1")}`,
-      link: "https://www.ecopudelka.pl/",
+      link: "https://e-shop-example.vercel.app/",
       github: "/",
     },
     {
